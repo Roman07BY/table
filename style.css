@@ -1,8 +1,8 @@
-/**{
+*{
 	padding: 0;
 	margin: 0;
 	border: 0;
-	color: rgb(255, 255, 255);
+	color: black;
 }
 
 *,*:before,*:after{
@@ -35,7 +35,7 @@ a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
 
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}*/
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 
 body{
@@ -46,9 +46,21 @@ body{
 	background-repeat: repeat-y;
 
 }
-
+.stroka1{
+background-color: rgb(209, 198, 198);
+}
+.stroka2{
+	background-color: white;
+}
+.stroka3{
+	background-color: rgb(209, 198, 198);
+}
+.stroka4{
+	background-color: white;
+}
 .but{
-	color: rgba(32, 145, 249, 1);
-	border-radius: 35px;
-	margin:0 12px 0 0 ;
+	color: rgb(255, 255, 255);
+	padding: 5px 15px;
+	border-radius: 5px;
+	background-color: rgb(61, 56, 56);
 }
