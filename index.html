@@ -9,59 +9,81 @@
 	<link rel="icon" href="/images/icon.png" type="image/x-icon">
 	<link rel="stylesheet" href="style.css">
 </head>
-
+<!--cellspacing="0"-->
 <body>
-	<table border="1" class="table">
-		<caption>ZAGOLOVOK</caption>
+	<table border="1" class="table" cellspacing="0" cellpadding="0">
+		<caption class="zagl">GoodFood</caption>
 
 		<thead>
-			<td colspan="5">
-				<ul>
-					<li>HOME</li>
-					<li>ABOUT</li>
-					<li>MENU</li>
-					<li>EVENTS</li>
-					<li>CONTACTS</li>
+			<td colspan="2">
+				<ul class="spisok">
+					<li class="pynkt home">HOME</li>
+					<li class="pynkt">ABOUT</li>
+					<li class="pynkt">MENU</li>
+					<li class="pynkt">EVENTS</li>
+					<li class="pynkt">CONTACTS</li>
 				</ul>
 			</td>
-			<tr>
+			<!--<tr>
 				<td width="25%">HOME</td>
 				<td width="25%">ABOUT</td>
 				<td width="25%">MENU</td>
 				<td width="25%">EVENTS</td>
 				<td width="25%">CONTACTS</td>
-			</tr>
+			</tr>-->
 		</thead>
 
 		<tbody>
+
 			<tr class="stroka1">
-				<td colspan="3"><img src="/images/1.png" class="first" alt=""></td>
-				<td colspan="2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus culpa et velit error nulla sapiente
+				<td class="cvet kolonka1"><img src="/images/1.png" class="first" alt="#"></td>
+				<td class="cvet">
+					<h1>Delicious meat</h1>
+					<h2>beciegast nveriti vitaesaert asety kertya aset aplica boserde nerafae kertyurauas vitaesa.</h2>
+					<p class="textcard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus culpa et velit error nulla sapiente
 					veniam, dolor fugit, illo qui sed provident? Nulla eligendi nobis odio, debitis reprehenderit
-					inventore ad.
+					inventore ad.</p>
+					<br>
 					<button class="but">More details</button>
 				</td>
 			</tr>
+
 			<tr class="stroka2">
-				<td colspan="3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione quasi officia ex asperiores
+				<td class="kolonka1">
+					<h1>Salads:</h1>
+					<h2>beciegast nveriti vitaesaert asety kertya aset aplica boserde nerafae kertyurauas vitaesa.</h2>
+					<p class="textcard">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione quasi officia ex asperiores
 					inventore id, sint placeat maiores, eius iste non eligendi commodi repellat tempore dolores saepe
-					beatae veniam! Quos.
+					beatae veniam! Quos.</p>
+					<br>
 					<button class="but">More details</button>
 				</td>
-				<td colspan="2"><img src="/images/2.png" class="second" alt=""></td>
+				<td><img src="/images/2.png" class="second" alt="#"></td>
 			</tr>
+
 			<tr class="stroka3">
-				<td colspan="3"><img src="/images/3.png" class="third" alt=""></td>
-				<td colspan="2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, tempore quas autem consequuntur
+				<td class="kolonka1"><img src="/images/3.png" class="third" alt="#"></td>
+				<td>
+					<h1>Grill menu:</h1>
+					<h2>beciegast nveriti vitaesaert asety kertya aset aplica boserde nerafae kertyurauas vitaesa.</h2>
+					<p class="textcard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, tempore quas autem consequuntur
 					non nam debitis laborum repellat itaque qui distinctio sint minima voluptates omnis odit sunt quae
-					est officiis. <button class="but">More details</button></td>
+					est officiis.</p>
+					<br>
+					<button class="but">More details</button></td>
 			</tr>
-			<td colspan="5">text</td>
+
+			<td colspan="5" class="zagl">Latest event:</td>
+
 			<tr class="stroka4">
-				<td colspan="3"><img src="/images/event.jpg" class="fourth" alt=""></td>
-				<td colspan="2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, tempore quas autem consequuntur
+				<td class="kolonka1"><img src="/images/event.jpg" class="fourth" alt="#"></td>
+				<td>
+					<h1>The title on the article</h1>
+					<p class="textcard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, tempore quas autem consequuntur
 					non nam debitis laborum repellat itaque qui distinctio sint minima voluptates omnis odit sunt quae
-					est officiis. <button class="but">More details</button></td>
+					est officiis.</p>
+					<br>
+					<button class="but">More details</button></td>
 			</tr>
 
 		</tbody>
@@ -69,13 +91,15 @@
 		<tfoot>
 			<tr>
 				<td colspan="5">
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, deserunt obcaecati dolorum dolor quam consequatur nostrum ut iste nemo voluptatum ducimus natus praesentium officiis repudiandae molestiae cupiditate at pariatur voluptatem.</p>
-					<ul>
-						<li><button><a href="https://twitter.com/" target="_blank"><img src="/images/twitter.png" alt=""></a></button></li>
-						<li><button><a href="https://www.facebook.com/" target="_blank"><img src="/images/facebook.png" alt=""></a></button></li>
-						<li><button><a href="https://www.instagram.com/?ysclid=lbrivg9art94636795" target="_blank"><img src="/images/inst.jpg" alt=""></a></button></li>
+					
+					<ul class="spisok">
+						<li><p class="konec">Lorem ipsum dolor sit amet consectetur.</p></li>
+						<li><button><a href="https://twitter.com/" target="_blank"><img src="/images/twitter.png" alt="#" class="tegi"></a></button></li>
+						<li><button><a href="https://www.facebook.com/" target="_blank"><img src="/images/facebook.png" alt="#" class="tegi"></a></button></li>
+						<li><button><a href="https://www.instagram.com/?ysclid=lbrivg9art94636795" target="_blank"><img src="/images/inst.jpg" alt="#" class="tegi"></a></button></li>
+						<li><p class="konec">Lorem ipsum dolor sit amet consectetur.</p></li>
 					</ul>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt molestiae modi animi obcaecati sit laboriosam tempore nihil, aliquid amet? Molestiae nulla itaque omnis assumenda adipisci voluptatem, enim et eligendi dolores!</p>
+					
 				</td>
 			</tr>
 		</tfoot>
